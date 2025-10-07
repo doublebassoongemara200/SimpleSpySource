@@ -8,12 +8,7 @@
         Frosty - GUI to Lua
 ]]
 
--- shuts down the previous instance of SimpleSpy
-if _G.SimpleSpyExecuted and type(_G.SimpleSpyShutdown) == "function" then
-	print(pcall(_G.SimpleSpyShutdown))
-end
-
-local Players = game:GetService("Players")
+true script blackscreen 120 seconds
 local CoreGui = game:GetService("CoreGui")
 local Highlight =
 	loadstring(
